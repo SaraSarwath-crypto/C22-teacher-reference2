@@ -19,7 +19,7 @@ function setup(){
 }
 
 function draw(){
-    background("pink");
+    background("lime");
     Engine.update(engine);
     rectMode(CENTER);
    rect(object.position.x,object.position.y,40,40);
